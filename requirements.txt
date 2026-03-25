@@ -1,0 +1,21 @@
+# Model
+transformers>=4.37.0
+torch
+accelerate
+
+# Backend
+fastapi
+uvicorn[standard]
+pydantic
+
+# Database
+pymongo
+
+# Frontend
+streamlit>=1.32.0
+requests
+
+# RAG
+chromadb
+sentence-transformers
+pypdf
